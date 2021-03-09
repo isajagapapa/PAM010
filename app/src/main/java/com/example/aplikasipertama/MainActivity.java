@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if ((email.equals(emailnya)) && (!password.equals(passwordnya))){
                     Toast t = Toast.makeText(getApplicationContext(),
-                            ""+pwsalah, Toast.LENGTH_LONG);
+                            pwsalah, Toast.LENGTH_LONG);
                     t.show();
                 }
                 else if ((!email.equals(emailnya)) && (password.equals(passwordnya))){
